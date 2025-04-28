@@ -240,3 +240,19 @@ body {
   If you need specific custom classes back, they should be redefined
   using the standard shadcn/ui variable names (--card, --foreground, etc.).
 */
+
+/* Photo Gallery Grid Styles */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.photo-grid-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius);
+  height: 250px; /* Fixed height to prevent image from taking up whole background */
+  box-shadow: var(--shadow-sm);
+}
