@@ -49,7 +49,7 @@ export default function AboutPage() {
           Inspiration & Approach
         </h2>
         <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed text-center md:text-left max-w-3xl mx-auto">
-          I draw inspiration from [mention sources of inspiration, e.g., nature&apos;s ever-changing light, the genuine expressions of people, the vibrant energy of cities, other artists]. My approach is often [describe your process, e.g., patient observation, spontaneous capture, detailed planning]. I believe that [share your philosophy on photography, e.g., every photo tells a story, the best moments are often unplanned].
+          I draw inspiration from [mention sources of inspiration, e.g., nature&apos;s ever-changing light, the genuine expressions of people, the vibrant energy of cities, other artists]. My approach is often to capture the moment as it happens. I believe that every photo tells a story, the best moments are often unplanned.
         </p>
       </section>
 
@@ -59,7 +59,7 @@ export default function AboutPage() {
           My Gear
         </h2>
         <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed text-center md:text-left max-w-3xl mx-auto">
-          While the gear isn&apos;t everything, having the right tools helps bring the vision to life. I primarily shoot with [mention your main camera body, e.g., a Canon EOS R5] and my favorite lenses are [mention a couple of preferred lenses, e.g., the versatile 24-70mm and the sharp 85mm prime]. For post-processing, I use [mention software, e.g., Adobe Lightroom and Photoshop].
+          While the gear isn't everything, having the right tools helps bring the vision to life. I primarily shoot with a Canon EOS 80D and my go-to lens is the versatile EFS 18-135mm. For post-processing, I use Photoshop and Lightroom.
         </p>
        </section>
 

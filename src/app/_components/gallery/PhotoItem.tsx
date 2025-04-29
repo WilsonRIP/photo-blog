@@ -3,7 +3,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { Photo } from "~/lib/gallery/types";
+import type { Photo } from "../../data/types";
 
 interface PhotoItemProps {
   photo: Photo;
@@ -46,12 +46,6 @@ export function PhotoItem({ photo, onClick }: PhotoItemProps) {
           priority={photo.id === "photo-1"}
         />
       )}
-      
-      <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-        <span className="text-white font-medium px-3 py-1 bg-black/50 rounded-full text-sm">
-          View
-        </span>
-      </div>
     </div>
   );
 }

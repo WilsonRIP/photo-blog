@@ -9,7 +9,7 @@ export default function HomePage() {
       {/* Hero Section with overlay, text, and CTA */}
       <section className="relative h-96 md:h-[500px] lg:h-[600px] flex items-center justify-center text-center overflow-hidden rounded-lg shadow-xl mb-16"> {/* Refactored hero-section */}
         <Image
-          src="/images/hero-slider.png" // Ensure this path is correct relative to your public directory
+          src="/images/IMG_1386.JPG" // Ensure this path is correct relative to your public directory
           alt="Hero Image showcasing photography"
           fill
           className="object-cover transition-transform duration-500 ease-in-out group-hover:scale-105" // Added transition for potential future hover effects on container
@@ -111,7 +111,7 @@ export default function HomePage() {
           {/* Example Photo Grid Item */}
           <div className="group relative aspect-[4/3] w-full overflow-hidden rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-[1.02] cursor-pointer"> {/* Refactored photo-grid-item, added slight scale on container hover */}
             <Image
-              src="/images/photo-1.png" // Ensure paths are correct
+              src="/images/IMG_1244.JPG" // Ensure paths are correct
               alt="Portrait photo"
               fill
               className="object-cover transition-transform duration-300 ease-in-out group-hover:scale-110" // Increased scale on Image hover
@@ -124,7 +124,7 @@ export default function HomePage() {
            {/* Example Photo Grid Item 2 */}
            <div className="group relative aspect-[4/3] w-full overflow-hidden rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-[1.02] cursor-pointer">
             <Image
-              src="/images/photo-2.png"
+              src="/images/IMG_1266.JPG"
               alt="Portrait photo"
               fill
               className="object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
@@ -136,7 +136,7 @@ export default function HomePage() {
            {/* Example Photo Grid Item 3 */}
            <div className="group relative aspect-[4/3] w-full overflow-hidden rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-[1.02] cursor-pointer">
             <Image
-              src="/images/photo-3.png"
+              src="/images/IMG_1353.JPG"
               alt="Landscape photo"
               fill
               className="object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
@@ -148,7 +148,7 @@ export default function HomePage() {
            {/* Example Photo Grid Item 4 */}
            <div className="group relative aspect-[4/3] w-full overflow-hidden rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-[1.02] cursor-pointer">
             <Image
-              src="/images/photo-4.png"
+              src="/images/IMG_0113.JPG"
               alt="Scenic view photo"
               fill
               className="object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
