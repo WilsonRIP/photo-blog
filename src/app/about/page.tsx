@@ -17,7 +17,7 @@ export default function AboutPage() {
         <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-xl flex-shrink-0 border-4 border-white dark:border-gray-800">
           {/* Replace with your actual photo path */}
           <Image
-            src="/images/photographer-portrait.jpg" // Example path
+            src="/images/owl-cat-ai.png" // Example path
             alt="A portrait of the photographer"
             fill
             className="object-cover"
